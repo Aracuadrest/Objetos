@@ -33,6 +33,7 @@ public class PruebaCoche {
 		System.out.println("El coche va a "+coche2.getVelocidad());
 		
 		Coche c3=new Coche("Seat", "Leon",105,170);
+		Coche c4=new Coche("Opel","Astra2",75,110);
 		
 		
 

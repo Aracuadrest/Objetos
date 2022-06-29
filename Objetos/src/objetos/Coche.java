@@ -14,11 +14,18 @@ public class Coche {
 	
 	//generar constructor por cada objeto por el numero de parametros
 	// constructor vacio(por si hemos creado uno sin variables iniciales)
-	
 	public Coche() {
 		velocidad=0;
 	}
 	
+	public Coche(String modelo, String marca, int potencia) {
+		super();
+		this.modelo = modelo;
+		this.marca = marca;
+		this.potencia = potencia;
+		
+	}
+
 	//constructor
 	public Coche(String m, String ma, int p, int vm) {
 		modelo=m;
